@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ant-input:-webkit-autofill,
+.ant-input:-webkit-autofill:focus {
+  font-size: "16px";
+}
+
+
+input.ant-input {
+  font-size: 16px;
+}
+
+.ant-input-password {
+  font-size: 16px;
+}
+
+.ant-input,
+.ant-select-selector {
+  font-size: 16px;
+}
+
+.custom-input-search {
+  font-size: 16px;
+}
+
+.loader-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.loader-text {
+  color: primary;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
